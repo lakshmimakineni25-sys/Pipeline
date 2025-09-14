@@ -1,0 +1,4 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: your-namespace   # change this (e.g. "production" or "jenkins")
