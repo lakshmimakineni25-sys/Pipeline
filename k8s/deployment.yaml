@@ -24,8 +24,7 @@ spec:
       #   - name: regcred
       containers:
       - name: nginx
-        # Replace with your image (Docker Hub or ECR): e.g. myuser/nginx-app:latest or 123456789012.dkr.ecr.us-east-1.amazonaws.com/nginx-app:latest
-        image: REPLACE_WITH_IMAGE
+        image: 812073016710.dkr.ecr.us-west-2.amazonaws.com/test-app:latest
         ports:
         - containerPort: 80
         readinessProbe:
